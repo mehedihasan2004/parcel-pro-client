@@ -12,6 +12,7 @@ const App = () => {
   ]);
   return (
     <div>
+      <div>Iqbal</div>
       <Navbar />
       {routes}
       <Footer />
