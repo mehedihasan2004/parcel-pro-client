@@ -1,7 +1,7 @@
 import React from "react";
 
 const Home3 = () => {
-  return <div>Project started soon........ </div>;
+  return <div>Anoher push ........................... everthing okey. </div>;
 };
 
 export default Home3;
