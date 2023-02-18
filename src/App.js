@@ -1,7 +1,7 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import { Footer, Navbar } from "./components";
-import { Home } from "./pages";
+import { Home } from "./pages/home";
 
 const App = () => {
   const routes = useRoutes([
@@ -12,7 +12,6 @@ const App = () => {
   ]);
   return (
     <div>
-      <div>Iqbal</div>
       <Navbar />
       {routes}
       <Footer />
