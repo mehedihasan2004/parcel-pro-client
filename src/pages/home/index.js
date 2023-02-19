@@ -13,3 +13,4 @@ export { default as WhoWeAre } from "./WhoWeAre";
 export { default as WhyChooseUs } from "./WhyChooseUs";
 export { default as YourExpectation } from "./YourExpectation";
 export { default as YourQuaries } from "./YourQuaries";
+export { default as JoinTheCrew } from "./JoinTheCrew";
