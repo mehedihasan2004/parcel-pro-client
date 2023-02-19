@@ -28,8 +28,8 @@ const JoinTheCrew = () => {
       ];
       return (
         <Container>
-         <Box style={{marginBottom:'130px'}}>
-         <Typography variant="h3" sx={{ textAlign: "center" }}>
+         <Box style={{marginBottom:'4rem', marginTop: "4rem"}}>
+         <Typography variant="h3" sx={{ textAlign: "center", fontWeight:"bold" }}>
             Join The Crew
           </Typography>
          </Box>
@@ -37,9 +37,7 @@ const JoinTheCrew = () => {
           <Grid
             container
             spacing={4}
-            sx={{
-              mt: "60px",
-            }}
+           
           >
             {crewsData.map((crewCard, index) => (
               <Grid item xs={12} sm={6} md={4} key={index}>
