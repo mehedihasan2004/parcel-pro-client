@@ -14,3 +14,4 @@ export { default as WhyChooseUs } from "./WhyChooseUs";
 export { default as YourExpectation } from "./YourExpectation";
 export { default as YourQueries } from "./YourQueries";
 export { default as BestPrice } from "./BestPrice";
+export { default as JoinTheCrew } from "./JoinTheCrew";
