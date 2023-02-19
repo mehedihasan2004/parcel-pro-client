@@ -1,7 +1,20 @@
 import React from "react";
+import { Container, Typography } from "@mui/material";
+import { Box } from "@mui/system";
 
 const BestPrice = () => {
-  return <div>Best Price Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ex libero quas at pariatur! Molestias obcaecati soluta dolorem! Blanditiis repellat ut quos maxime sunt neque unde mollitia, optio dignissimos! Inventore?</div>;
+  return (
+    <Container maxWidth="xl">
+      <Box>
+        <Typography variant="h4" gutterBottom>
+          Get The{" "}
+          <span style={{ fontWeight: "bold", color: "yellowgreen" }}>
+            Best Prices
+          </span>
+        </Typography>
+      </Box>
+    </Container>
+  );
 };
 
 export default BestPrice;
