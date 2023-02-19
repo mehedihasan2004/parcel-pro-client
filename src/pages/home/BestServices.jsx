@@ -1,7 +1,7 @@
 import React from "react";
 
 const BestServices = () => {
-  return <div>Best Services</div>;
+  return <div></div>;
 };
 
 export default BestServices;
