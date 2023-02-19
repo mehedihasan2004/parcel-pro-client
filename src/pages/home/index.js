@@ -12,10 +12,7 @@ export { default as ShipmentBook } from "./ShipmentBook";
 export { default as WhoWeAre } from "./WhoWeAre";
 export { default as WhyChooseUs } from "./WhyChooseUs";
 export { default as YourExpectation } from "./YourExpectation";
-<<<<<<< HEAD
-export { default as YourQuaries } from "./YourQuaries";
-
-=======
 export { default as YourQueries } from "./YourQueries";
 export { default as BestPrice } from "./BestPrice";
->>>>>>> e6e85efbd3a781782905a08565179c651176b3e4
+
+
