@@ -1,4 +1,4 @@
-import { CssBaseline } from "@mui/material";
+import { Container, CssBaseline } from "@mui/material";
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import { Footer, Navbar } from "./components";
@@ -11,12 +11,12 @@ const App = () => {
     },
   ]);
   return (
-    <div>
+    <Container maxWidth="xl">
       <Navbar />
       {routes}
       <Footer />
-      <CssBaseline/>
-    </div>
+      <CssBaseline />
+    </Container>
   );
 };
 
