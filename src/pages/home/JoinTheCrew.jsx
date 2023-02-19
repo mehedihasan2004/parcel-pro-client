@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid, Typography, Container } from "@mui/material";
 import React from 'react';
 import { CrewCard } from "../../components";
 
@@ -27,7 +27,7 @@ const JoinTheCrew = () => {
         },
       ];
       return (
-        <Box>
+        <Container>
          <Box style={{marginBottom:'130px'}}>
          <Typography variant="h3" sx={{ textAlign: "center" }}>
             Join The Crew
@@ -47,7 +47,7 @@ const JoinTheCrew = () => {
               </Grid>
             ))}
           </Grid>
-        </Box>
+        </Container>
       );
 };
 
