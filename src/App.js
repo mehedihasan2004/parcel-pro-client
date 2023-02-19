@@ -1,8 +1,8 @@
+import { CssBaseline } from "@mui/material";
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import { Footer, Navbar } from "./components";
 import { Home } from "./pages/home";
-
 const App = () => {
   const routes = useRoutes([
     {
@@ -15,6 +15,7 @@ const App = () => {
       <Navbar />
       {routes}
       <Footer />
+      <CssBaseline/>
     </div>
   );
 };
