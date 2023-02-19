@@ -1,7 +1,7 @@
 import React from "react";
 
 const ShipmentBook = () => {
-  return <div>Book Shipment</div>;
+  return <div></div>;
 };
 
 export default ShipmentBook;

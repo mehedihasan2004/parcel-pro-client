@@ -1,7 +1,7 @@
 import React from "react";
 import {
   BestServices,
-  BestPrice,
+  // BestPrice,
   FreightCalculate,
   Hero,
   OurExperience,
@@ -9,6 +9,7 @@ import {
   ShipmentBook,
   OurTalent,
   RecentArticles,
+  MobileApp
 } from ".";
 import JoinTheCrew from "./JoinTheCrew";
 
@@ -16,11 +17,12 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <JoinTheCrew></JoinTheCrew>
       <BestServices />
       <FreightCalculate />
+      <MobileApp/>
+      <JoinTheCrew/>
       <ReachOut />
-      <BestPrice />
+      {/* <BestPrice /> */}
       <OurExperience />
       <ShipmentBook />
       <OurTalent />
