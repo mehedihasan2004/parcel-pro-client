@@ -10,11 +10,13 @@ import {
   OurTalent,
   RecentArticles,
 } from ".";
+import JoinTheCrew from "./JoinTheCrew";
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <JoinTheCrew></JoinTheCrew>
       <BestServices />
       <FreightCalculate />
       <ReachOut />
