@@ -3,15 +3,9 @@ import {
   BestServices,
   // BestPrice,
   FreightCalculate,
-  Hero,
-  OurExperience,
-  ReachOut,
-  ShipmentBook,
-  OurTalent,
-  RecentArticles,
-  MobileApp
+  Hero, JoinTheCrew, MobileApp, OurExperience, OurServices, OurTalent, ReachOut, RecentArticles, ShipmentBook, WeDeliver
 } from ".";
-import JoinTheCrew from "./JoinTheCrew";
+
 
 const Home = () => {
   return (
@@ -19,6 +13,8 @@ const Home = () => {
       <Hero />
       <BestServices />
       <FreightCalculate />
+      <OurServices/>
+      <WeDeliver/>
       <MobileApp/>
       <JoinTheCrew/>
       <ReachOut />
