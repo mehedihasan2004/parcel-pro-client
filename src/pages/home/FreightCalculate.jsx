@@ -1,9 +1,7 @@
 import React from "react";
 
 const FreightCalculate = () => {
-  return <div>
-    <h1>Calculator</h1>
-  </div>;
+  return <div></div>;
 };
 
 export default FreightCalculate;
