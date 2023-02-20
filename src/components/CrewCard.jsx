@@ -8,9 +8,9 @@ import Typography from "@mui/material/Typography";
 import { Box } from "@mui/material";
 
 const CrewCard = ({ crewCard }) => {
-  
   return (
     <Box>
+
      
 
 <Card gutterBottom sx={{ maxWidth: 345, p:"1rem" }}>
@@ -35,6 +35,7 @@ const CrewCard = ({ crewCard }) => {
             sx={{ bgcolor: "#4E9FE5", color: "#F0EFE6","&:hover":{color:'#F0EFE6',bgcolor: "#000000"}}}
             size="large"
           >
+
             Join Us
           </Button>
       </CardActions>
