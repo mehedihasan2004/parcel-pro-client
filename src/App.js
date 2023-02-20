@@ -11,7 +11,7 @@ const App = () => {
     },
   ]);
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="lg">
       <Navbar />
       {routes}
       <Footer />
