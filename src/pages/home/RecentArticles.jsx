@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Navbar = () => {
+const RecentArticles = () => {
   return (
     <div>
-      Navbar
+      
     </div>
   );
 };
 
-export default Navbar;
+export default RecentArticles;
