@@ -27,7 +27,7 @@ const HomeBanner = () => {
           aspernatur cum dignissimos eaque, harum et amet laborum porro iste id
           <br />
           sapiente labore, eius dicta adipisci reiciendis dolorem at libero
-          fuga. Mehedi Hasan
+          fuga. Mehedi Hasan...............................................
         </Typography>
       </div>
     </div>
