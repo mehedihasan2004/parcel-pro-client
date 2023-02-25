@@ -4,7 +4,7 @@ import {
   BestServices,
   FreightCalculate,
   // Hero,
-  HomeBanner,
+  // HomeBanner,
   JoinTheCrew,
   MobileApp,
   OurExperience,
@@ -19,7 +19,7 @@ import {
 const Home = () => {
   return (
     <>
-      <HomeBanner />
+      {/* <HomeBanner /> */}
       {/* <Hero /> */}
       <Container>
         <BestServices />
